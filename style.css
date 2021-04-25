@@ -52,16 +52,18 @@ button.close {
 .model-inpt h1{
     margin-left: 30px;
     display: inline-block;
-    width: 69%;
+    width: 66%;
     text-align: center;
     margin: auto;
     font-weight: 700;
     font-size: 69px;
+    font-family: 'Kanit', sans-serif;
+    color: #011837;
 }
 .model-inpt p{
-    margin-top: 17px;
+    margin: 19px 0 41px 0px;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 20px;
 }
 .model-inpt input{
     width: 70%;
@@ -74,18 +76,35 @@ button.close {
     outline: 0;
 }
 button.sub_btn {
-    margin-top: 10px;
     font-size: 25px;
     font-weight: bold;
     color: #fff;
-    background: #56a1ce;
+    background: #03112d;
     border: 0;
     height: 55px;
     width: 70%;
+    display: block;
+    margin: auto;
+    margin-top: 13px;
 }
-
-
-
+.model-inpt h2{
+    font-weight: 500;
+    color: #03112d;
+    font-family: 'Kanit', sans-serif;
+    font-size: 26px;
+}
+p.close {
+    opacity: 1;
+    color: #03112d;
+    display: block;
+    float: left;
+    margin-left: 83px;
+    font-size: 15px;
+}
+p.close:hover{
+    opacity: 1;
+    color: #03112d;
+}
 
 
 
