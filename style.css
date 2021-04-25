@@ -1,0 +1,93 @@
+*{
+    margin: auto;
+    padding: auto;
+}
+.modal-dialog {
+    width: 100%;
+}
+.modal-header{
+    position: relative;
+    border: none;
+}
+.modal-footer{
+    position: relative;
+    border: none;
+}
+button.close {
+    position: absolute;
+    right: 11px;
+    background: #000;
+    color: #fff;
+    padding: 0 6px;
+    opacity: 1;
+    border-radius: 5px;
+}
+.close:focus, .close:hover {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    filter: alpha(opacity=50);
+    opacity: 1;
+}
+.modal-content{
+    width: 70%;
+    height: 500px;
+    background: rgb(19, 105, 180);
+    justify-content: center;
+    position: absolute;
+    background-image: url(popup-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 180px;
+    top: 42px;
+}
+.model-inpt{
+    height: 100%;
+    width: 49%;
+    display: inline-block;
+    margin: initial;
+    text-align: center;
+    margin: auto;
+}
+.model-inpt h1{
+    margin-left: 30px;
+    display: inline-block;
+    width: 69%;
+    text-align: center;
+    margin: auto;
+    font-weight: 700;
+    font-size: 69px;
+}
+.model-inpt p{
+    margin-top: 17px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.model-inpt input{
+    width: 70%;
+    display: block;
+    text-align: center;
+    margin: auto;
+    height: 55px;
+    background: #e1e3e4;
+    border: navajowhite;
+    outline: 0;
+}
+button.sub_btn {
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+    background: #56a1ce;
+    border: 0;
+    height: 55px;
+    width: 70%;
+}
+
+
+
+
+
+
+
+
