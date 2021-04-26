@@ -40,6 +40,7 @@ button.close {
     background-size: cover;
     left: 180px;
     top: 42px;
+    overflow: hidden;
    
 }
 .model-inpt{
